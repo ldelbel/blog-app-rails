@@ -1,7 +1,8 @@
 <h1>All Articles Tagged with <%= @tag.name%></h1>
 
 <ul class="tagged_articles">
-  <%= @tag.articles.each do |article| %>
+  
+  <% @tag.articles.each do |article| %>
   <li>
     <%= link_to article.title, article_path(article) %>
   

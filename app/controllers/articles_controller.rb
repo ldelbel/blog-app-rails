@@ -1,8 +1,8 @@
 class ArticlesController < ApplicationController
   include ArticlesHelper
-  
+
   before_action :require_login, except: [:index]
-  
+
   def index
     @articles = Article.all
   end
@@ -14,7 +14,7 @@ class ArticlesController < ApplicationController
   end
 
   def new
-    @article = Article.new 
+    @article = Article.new
   end
 
   def create
@@ -39,6 +39,6 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
     @article.update(article_params)
     flash.notice = "Article '#{@article.title}' Updated!"
-    redirect_to article_path(@article) 
+    redirect_to article_path(@article)
   end
 end

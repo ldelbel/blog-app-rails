@@ -1,14 +1,7 @@
 # Blog App - Ruby on Rails
 
-[![View Code]()]()
-[![Github Issues]()]()
-[![GitHub Pull Requests]()]()
 
-<br />
-<p align="center">
-  <a href="https://github.com/ldelbel/Ruby_capstone">
-    <img src="images/microverse.png" alt="Logo" width="80" height="80">
-  </a>
+
 
   <h2 align="center">Blog App</h2>
 

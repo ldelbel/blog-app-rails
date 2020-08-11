@@ -1,8 +1,6 @@
 # Blog App - Ruby on Rails
 
 
-
-
   <h2 align="center">Blog App</h2>
 
     
